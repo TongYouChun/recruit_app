@@ -1,0 +1,134 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/homepage/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/enterprise/index",
+			"style": {
+				"navigationBarTitleText": "找企业",
+				"app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/enterprise/details/index",
+			"style": {
+				"navigationBarTitleText": "企业详情"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/my/personal/index",
+			"style": {
+				"navigationBarTitleText": "个人服务"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/news/Delivery/index",
+			"style": {
+				"navigationBarTitleText": "我的投递"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/search/display/index",
+			"style": {
+				"navigationBarTitleText": "搜索结果"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/news/history/index",
+			"style": {
+				"navigationBarTitleText": "谁看过我"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/news/chat/index",
+			"style": {
+				"navigationBarTitleText": ""
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/details/index",
+			"style": {
+				"navigationBarTitleText": "职位详情"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/my/modifyResume/index",
+			"style": {
+				"navigationBarTitleText": "简历"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/my/resume/index",
+			"style": {
+				"navigationBarTitleText": "简历"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/my/intention/index",
+			"style": {
+				"navigationBarTitleText": "求职意向"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+				// "app-plus": {"titleNView": false}
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#32B89B",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/homepage/index",
+			"text": "首页",
+			"iconPath": "static/Icon/icon_itxa/index.png",
+			"selectedIconPath": "static/Icon/icon_xpyg/index.png"
+		},{
+			"pagePath": "pages/enterprise/index",
+			"text": "找企业",
+			"iconPath": "static/Icon/icon_itxa/qiye.png",
+			"selectedIconPath": "static/Icon/icon_xpyg/qiye.png"
+		}, {
+			"pagePath": "pages/news/index",
+			"text": "消息",
+			"iconPath": "static/Icon/icon_itxa/xiaoxi.png",
+			"selectedIconPath": "static/Icon/icon_xpyg/xiaoxi.png"
+		}, {
+			"pagePath": "pages/my/index",
+			"text": "我的",
+			"iconPath": "static/Icon/icon_itxa/wode.png",
+			"selectedIconPath": "static/Icon/icon_xpyg/wode.png"
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}

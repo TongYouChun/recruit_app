@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/homepage/index",
+    "pages/enterprise/index",
+    "pages/enterprise/details/index",
+    "pages/my/personal/index",
+    "pages/news/Delivery/index",
+    "pages/search/display/index",
+    "pages/news/history/index",
+    "pages/news/chat/index",
+    "pages/details/index",
+    "pages/my/modifyResume/index",
+    "pages/my/resume/index",
+    "pages/my/intention/index",
+    "pages/search/index",
+    "pages/my/index",
+    "pages/news/index",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#32B89B",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/homepage/index",
+        "text": "首页",
+        "iconPath": "static/Icon/icon_itxa/index.png",
+        "selectedIconPath": "static/Icon/icon_xpyg/index.png"
+      },
+      {
+        "pagePath": "pages/enterprise/index",
+        "text": "找企业",
+        "iconPath": "static/Icon/icon_itxa/qiye.png",
+        "selectedIconPath": "static/Icon/icon_xpyg/qiye.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "消息",
+        "iconPath": "static/Icon/icon_itxa/xiaoxi.png",
+        "selectedIconPath": "static/Icon/icon_xpyg/xiaoxi.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "static/Icon/icon_itxa/wode.png",
+        "selectedIconPath": "static/Icon/icon_xpyg/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

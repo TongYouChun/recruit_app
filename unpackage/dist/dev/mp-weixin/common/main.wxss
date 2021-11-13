@@ -1,0 +1,9 @@
+
+page,page{
+	height: 100%;
+}
+uni-page-body{
+	height: 100%;
+}
+/*每个页面公共css */
+
